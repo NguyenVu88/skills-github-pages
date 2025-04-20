@@ -1,6 +1,151 @@
-<header>
+<header><!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ảnh hưởng của Công nghệ số</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0077cc;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #eee;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0077cc;
+        }
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+        }
+        h2 {
+            color: #0077cc;
+        }
+        footer {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
 
-<!--
+<header>
+    <h1>Ảnh hưởng của Công nghệ số đến Cuộc sống Hiện đại</h1>
+</header>
+
+<nav>
+    <a href="#gioi-thieu">Giới thiệu</a>
+    <a href="#tac-dong">Tác động</a>
+    <a href="#loi-ich">Lợi ích & Thách thức</a>
+    <a href="#ket-luan">Kết luận</a>
+</nav>
+
+<div class="container">
+    <section id="gioi-thieu">
+        <h2>Giới thiệu</h2>
+        <p>Công nghệ số đã trở thành một phần không thể thiếu trong cuộc sống hiện đại. Nó ảnh hưởng đến cách con người học tập, làm việc, giao tiếp và giải trí.</p>
+    </section>
+
+    <section id="tac-dong">
+        <h2>Tác động đến các lĩnh vực</h2>
+        <h3>1. Giao tiếp và xã hội</h3>
+        <ul>
+            <li>Kết nối nhanh chóng, không giới hạn khoảng cách.</li>
+            <li>Dễ gây lệ thuộc, giảm tương tác thực tế.</li>
+        </ul>
+
+        <h3>2. Giáo dục</h3>
+        <ul>
+            <li>Học trực tuyến mọi lúc, mọi nơi.</li>
+            <li>Thiếu tương tác trực tiếp, dễ bị phân tâm.</li>
+        </ul>
+
+        <h3>3. Công việc và sản xuất</h3>
+        <ul>
+            <li>Tăng năng suất, tiết kiệm chi phí.</li>
+            <li>Một số ngành nghề bị thay thế bởi tự động hóa.</li>
+        </ul>
+
+        <h3>4. Giải trí và tiêu dùng</h3>
+        <ul>
+            <li>Giải trí phong phú, tiện lợi.</li>
+            <li>Dễ dẫn đến nghiện thiết bị, tiêu dùng quá mức.</li>
+        </ul>
+    </section>
+
+    <section id="loi-ich">
+        <h2>Lợi ích và Thách thức</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Lợi ích</th>
+                    <th>Thách thức</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kết nối toàn cầu</td>
+                    <td>Mất cân bằng đời sống thực</td>
+                </tr>
+                <tr>
+                    <td>Tăng hiệu quả làm việc</td>
+                    <td>Nguy cơ mất việc vì tự động hóa</td>
+                </tr>
+                <tr>
+                    <td>Giáo dục mở rộng</td>
+                    <td>Khoảng cách công nghệ vùng sâu vùng xa</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="ket-luan">
+        <h2>Kết luận</h2>
+        <p>
+            Công nghệ số mang lại nhiều cơ hội nhưng cũng kèm theo nhiều thách thức. Con người cần sử dụng công nghệ một cách thông minh và có trách nhiệm để tận dụng lợi ích và giảm thiểu rủi ro.
+        </p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 - Trang web giáo dục về Công nghệ số
+</footer>
+
+</body>
+</html><!--
   <<< Author notes: Course header >>>
   Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
   In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
